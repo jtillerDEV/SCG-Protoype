@@ -28,7 +28,7 @@ RISK_STATE_FILE = "risk_state.json"  # File to persist risk management state
 MAX_DD_PCT = 0.05        # Maximum drawdown percentage before auto-pause (5%)
 # ---------------------------------
 
-
+ 
 def update_drawdown_and_guardrail(acct_equity):
     """
     Risk management function that tracks peak equity and enforces drawdown limits.
