@@ -1,0 +1,14 @@
+# venv & caches
+venv/
+__pycache__/
+*.pyc
+
+# secrets & runtime artifacts
+.env
+trade_log.csv
+risk_state.json
+
+# streamlit
+.streamlit/
+
+
